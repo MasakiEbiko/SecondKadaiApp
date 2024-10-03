@@ -11,15 +11,13 @@ class ResultViewController: UIViewController {
 
     @IBOutlet weak var label: UILabel!
     
-    var x:Int = 0
-    var y:Int = 0
+    var inputedName:String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let result = x + y
-        label.text = "結果は\(result)です"
+        label.text = "こんにちは、\(inputedName)さん！！"
     }
     
 
